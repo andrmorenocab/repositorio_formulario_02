@@ -6,6 +6,50 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h1>Formularios</h1>
+    <form action="get" method="">
+        
+        <label for="nombre_completo">Escriba nombre y apellido: </label>
+
+        <input type="text" name="nombre_completo" id="nombre_completo">
+
+        <br>
+
+        <label for="password">Escriba la contraseña: </label>
+
+        <input type="password" name="password" id="password">
+
+        <br>
+
+        <label for="genero">Seleccione el genero: </label>
+
+        <input type="radio" name="genero" id="genero" value="mujer">mujer</input>
+        <input type="radio" name="genero" id="genero" value="hombre">hombre</input>
+        <input type="radio" name="genero" id="genero" value="otro">otro</input>
+
+        <br>
+
+        <label for="idioma">Selecciona el idioma: </label>
+        <input type="checkbox" name="idioma" id="idioma" value="espanol">Español</input>
+        <input type="checkbox" name="idioma" id="idioma" value="ingles">Ingles</input>
+        <input type="checkbox" name="idioma" id="idioma" value="frances">Frances</input>
+
+        <br>
+
+        <label for="estudios">Selecciona su nivel de estudios: </label>
+
+        <select name="estudios" id="estudios">
+            <option value="defecto">---Seleccione una opcion</option>
+            <option value="eso">ESO</option>
+            <option value="bachillerato">Bachillerato</option>
+            <option value="fp">Formacion profesional</option>
+            <option value="grado">Grado</option>
+        </select>
+
+        <br>
+
+        <input type="submit" value="Enviar formulario">
+        <input type="reset" value="Limpiar información">
+    </form>
 </body>
 </html>
