@@ -42,6 +42,7 @@ select{
     margin-top: 5%;
     background-color: black;
     color: white;
+    border-color: red;
 }
 textarea{
     width: 99.2%;
@@ -50,4 +51,5 @@ textarea{
 .enviar:hover{
     background-color: white;
     color: black;
+    border-color: blue;
 }
