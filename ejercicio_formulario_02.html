@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 02</title>
+    <link rel="stylesheet" href="..\css/ejercicio_formulario_02.css">
+</head>
+<body>
+    <form action="">
+
+        <label for="name">Escribe tu nombre: </label>
+        <input type="text" name="name" id="name" placeholder="Francesc" required>
+        <br>
+        <label for="lastname">Escribe tu apellido: </label>
+        <input type="text" name="lastname" id="lastname" placeholder="Ricart" required>
+        <br>
+        <label for="mail">Escribe tu email: </label>
+        <input type="email" name="mail" id="mail" placeholder="correo@empresa.com" required>
+        <br>
+        <label for="valoracion">¿Que valoracion de las a la publicacion?</label>
+        <br>
+        <input type="radio" name="valoracion" id="0" value="0">0</input>
+        <input type="radio" name="valoracion" id="1" value="1" class="valoracion">1</input>
+        <input type="radio" name="valoracion" id="2" value="2" class="valoracion">2</input>
+        <input type="radio" name="valoracion" id="3" value="3" class="valoracion">3</input>
+        <input type="radio" name="valoracion" id="4" value="4" class="valoracion">4</input>
+        <input type="radio" name="valoracion" id="5" value="5" class="valoracion_final" checked>5</input>
+        <br>
+        <label for="asignatura">¿Que asignaturas has estudiado?</label>
+        <br>
+        <input type="checkbox" name="asinatura" id="asignatura" value="html">html</input>
+        <input type="checkbox" name="asinatura" id="asignatura" value="css" class="asignatura">css</input>
+        <input type="checkbox" name="asinatura" id="asignatura" value="javascript" class="asignatura">javascript</input>
+        <br>
+        <label for="alineacion" class="alineacion">Selecciona tu alineación ideal</label>
+        <br>
+        <select name="alineacion" id="alineacion">
+            <option value="defecto">- Seleccione una opcion</option>
+            <option value="cristiano">Cristiano</option>
+            <option value="messi">Messi</option>
+            <option value="chigrinsky">Chigrinsky</option>
+            <option value="ramos">Sergio Ramos</option>
+            <option value="svechenko">Svechenko</option>
+        </select>
+
+        <br>
+        <label for="opinion">¿Que mejorarias de este curso?</label>
+        <br>
+        <textarea name="opinion" id="opinion"></textarea>
+        <br>
+        <input type="submit" value="Enviar" class="enviar">
+    </form>
+</body>
+</html>

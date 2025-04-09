@@ -1,0 +1,53 @@
+form{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+label{
+    color: #001c42;
+    font-weight: bold;
+    margin-top: 3%;
+}
+input{
+    margin-top: 3%;
+}
+select{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 100%;
+}
+#mail{
+    margin-bottom: 3%;
+}
+.valoracion, .valoracion_final{
+    margin-left: 6%;
+}
+.valoracion_final{
+    margin-bottom: 3%;
+}
+.asignatura{
+    margin-left: 6%;
+}
+.alineacion{
+    margin-top: 3%;
+}
+#asignatura{
+    margin-bottom: 3%;
+}
+#name, #lastname, #mail{
+    margin-left: 3%;
+}
+.enviar{
+    width: 100%;
+    margin-top: 5%;
+    background-color: black;
+    color: white;
+}
+textarea{
+    width: 99.2%;
+    margin-top: 2%;
+}
+.enviar:hover{
+    background-color: white;
+    color: black;
+}
